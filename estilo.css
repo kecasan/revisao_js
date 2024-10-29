@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     background-image: url("background.png");
+    background-size: cover;
 }
 
 .content {
@@ -12,9 +13,15 @@ body {
     align-items: center;}
 
 .box {
-    width: 300px;
+    width: 400px;
     height: 300px;
     background: #fff;
+    opacity: 0.5;
+}
+.box2 {
+    width: 400px;
+    height: 300px;
+    position: relative;
 }
 
 .icons {
@@ -31,6 +38,6 @@ body {
 }
 
 img {
-    width: 50;
-    height: 50;
+    max-width: 150px;
+    height: 150px;
 }

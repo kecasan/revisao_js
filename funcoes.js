@@ -8,5 +8,9 @@ function ao_clicar() {
 }
 
 function brilha() {
-    
+    document.getElementById("pisca").style.color = "blue"
+}
+
+function des_brilha() {
+    document.getElementById("pisca").style.color = "black"
 }

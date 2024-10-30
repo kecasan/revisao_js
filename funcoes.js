@@ -1,3 +1,5 @@
+//Cartão de visitas
+
 function ao_clicar() {
     var texto = document.getElementById("clicou");
     if (texto.style.display === "none") {
@@ -14,3 +16,6 @@ function brilha() {
 function des_brilha() {
     document.getElementById("pisca").style.color = "black"
 }
+
+//Lista de tarefas
+
